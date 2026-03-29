@@ -1,7 +1,5 @@
 # 🧪 iDURAR E2E QA Testing Project
 
-## 🔗 Tested Application
-
 The testing activities in this project are based on the publicly available iDURAR ERP/CRM system.
 
 - Repository: https://github.com/idurar/idurar-erp-crm
