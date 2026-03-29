@@ -1,8 +1,14 @@
-# Bug Reports
+# 🐞 Bug Reports
 
-This directory contains identified defects during testing.
+This directory contains defects identified during testing.
 
 Each bug report includes:
+- description
 - steps to reproduce
-- expected vs actual result
+- expected result
+- actual result
 - severity and priority
+- evidence (screenshots)
+
+## Goal
+Provide clear, reproducible, and actionable defect reports.
