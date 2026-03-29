@@ -54,7 +54,7 @@ Functional
 ---
 
 ## 🔗 Related Issue
-#1
+https://github.com/pawelbrudniak/idurar-e2e-qa-testing/issues/1
 
 ---
 
