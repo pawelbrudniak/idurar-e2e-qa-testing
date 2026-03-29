@@ -46,14 +46,15 @@ The focus is not only on verifying functionality, but also on identifying:
 
 ## 🧱 Project Structure
 
-- **/test-plan** → test strategy and scope
-- **/test-cases** → designed test scenarios
-- **/bug-reports** → identified defects
-- **/api-tests** → API testing (if applicable)
-- **/security-tests** → basic security checks
-- **/e2e-flows** → user journey testing
-- **/test-report** → final quality assessment
-- **/assets** → screenshots and evidence
+- **/test-plan** → test strategy and scope  
+- **/test-cases** → designed test scenarios  
+- **/bug-reports** → identified defects  
+- **/api-tests** → API requests and test scenarios  
+- **/data-validation** → verification of data flow between UI and backend  
+- **/security-tests** → basic security checks  
+- **/e2e-flows** → user journey testing  
+- **/test-report** → final quality assessment  
+- **/assets** → screenshots and evidence  
 
 ---
 
