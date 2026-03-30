@@ -11,7 +11,7 @@ The testing workflow for this project is managed using a GitHub Project board, s
 
 👉 [**Open QA Board**](https://github.com/users/pawelbrudniak/projects/3)
 
-👉 [👉 **View QA Workflow Documentation** – detailed explanation of process, issue lifecycle and traceability](docs/board-workflow.md)
+👉 [**View QA Workflow Documentation** – detailed explanation of process, issue lifecycle and traceability](docs/board-workflow.md)
 
 This setup reflects a real-world QA workflow used in Agile environments.
 
