@@ -9,11 +9,9 @@ The testing activities in this project are based on the publicly available iDURA
 
 The testing workflow for this project is managed using a GitHub Project board, simulating a real QA process.
 
-👉 Board:
-https://github.com/users/pawelbrudniak/projects/3
+👉 [Open QA Board](https://github.com/users/pawelbrudniak/projects/3)
 
-👉 Detailed workflow description:
-[View QA Workflow Documentation](docs/board-workflow.md)
+👉 [View QA Workflow Documentation](docs/board-workflow.md)
 
 This setup reflects a real-world QA workflow used in Agile environments.
 
