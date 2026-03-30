@@ -9,15 +9,19 @@ The testing activities in this project are based on the publicly available iDURA
 
 The testing workflow for this project is managed using a GitHub Project board, simulating a real QA process.
 
-👉 https://github.com/users/pawelbrudniak/projects/3
+👉 Board:
+https://github.com/users/pawelbrudniak/projects/3
+
+👉 Detailed workflow description:
+[View QA Workflow Documentation](docs/board-workflow.md)
 
 This setup reflects a real-world QA workflow used in Agile environments.
 
 The board includes:
+
 - test case tracking
 - defect lifecycle management
 - task progress (Backlog → In Progress → Testing → Done)
-
 ---
 
 This repository presents a comprehensive **end-to-end quality assurance process** conducted on the iDURAR ERP/CRM system.
