@@ -27,7 +27,7 @@ Mark relevant option:
 * [ ] 🐞 Bug fix
 * [ ] 🔧 Refactor / improvement
 * [ ] 📚 Documentation update
-* [ ] 🔄 Other (describe below)
+* [x] 🔄 Other (describe below)
 
 ---
 
