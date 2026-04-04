@@ -131,3 +131,4 @@ From a QA standpoint, this setup ensures:
 
 Proceed with application deployment:
 → iDURAR installation (Docker-based setup)
+[02 – iDURAR Installation](./02-idurar-installation.md)
