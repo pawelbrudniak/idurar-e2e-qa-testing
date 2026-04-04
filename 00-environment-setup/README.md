@@ -130,5 +130,10 @@ From a QA standpoint, this setup ensures:
 ## ✅ Next Step
 
 Proceed with application deployment:
-→ iDURAR installation (Docker-based setup)
-[02 – iDURAR Installation](./02-idurar-installation.md)
+
+👉 [02 – iDURAR Installation (Docker Setup)](./02-idurar-installation.md)
+
+This step covers:
+- application deployment on VPS
+- Docker-based setup
+- preparing the system for testing
