@@ -1,5 +1,62 @@
 # 🧪 iDURAR E2E QA Testing Project
 
+## 📌 Quick Navigation
+
+### 🧠 Analysis & Preparation
+- 📊 [Requirements Analysis](./00-requirements-analysis/)
+- 🔧 [Environment Setup](./00-environment-setup/README.md)
+- 📋 [Test Plan](./01-test-plan/README.md)
+
+### 🧪 Test Design & Execution
+- 🧪 [Test Cases](./02-test-cases/)
+- 🔄 [E2E Flows](./07-e2e-flows/)
+- 🔌 [API Tests](./04-api-tests/)
+- 🗄️ [Data Validation](./05-data-validation/)
+
+### 🐞 Defects & Quality
+- 🐞 [Bug Reports](./03-bug-reports/)
+- 🔐 [Security Tests](./06-security-tests/)
+- 📊 [Test Report](./08-test-report/)
+
+### 📁 Supporting Materials
+- 🖼️ [Assets (Screenshots & Evidence)](./assets/)
+- 📚 [Documentation](./docs/)
+- 🤝 [Contributing Guidelines](./CONTRIBUTING.md)
+
+
+---
+
+## 🚀 Environment Setup
+
+The testing environment is hosted on a remote VPS and configured using secure SSH access integrated with Visual Studio Code.
+
+👉 [View Environment Setup Documentation](./00-environment-setup/README.md)
+
+### 🔧 Scope of Configuration
+
+- VPS provisioning (Contabo)
+- SSH key-based authentication (secure, passwordless login)
+- Remote development environment (VS Code + Remote SSH)
+- Initial preparation for application deployment
+
+### 🎯 Purpose
+
+This setup ensures a stable and reproducible environment for executing QA activities, including:
+
+- application deployment and validation
+- test execution
+- defect investigation
+- log analysis and debugging
+
+### 🧠 QA Perspective
+
+From a QA standpoint, environment setup is a critical part of test preparation, ensuring:
+
+- consistency across testing sessions
+- reliability of results
+- ability to reproduce defects
+- alignment with real-world QA workflows
+
 The testing activities in this project are based on the publicly available iDURAR ERP/CRM system.
 
 - Repository: https://github.com/idurar/idurar-erp-crm
