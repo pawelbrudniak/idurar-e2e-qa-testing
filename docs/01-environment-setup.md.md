@@ -105,7 +105,7 @@ Verification:
 ```bash
 whoami
 ```
-
+![SSH Connection](../assets/environment/ssh-root-login.png)
 ---
 
 ## 🔒 8. Sudo Access Verification
