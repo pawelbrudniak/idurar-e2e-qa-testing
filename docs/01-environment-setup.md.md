@@ -13,7 +13,7 @@ Connected to the VPS via SSH as the `root` user:
 ```bash
 ssh root@144.91.124.1
 ```
-
+![SSH connection successful](../assets/environment/ssh-root-login.png)
 ---
 
 ## 🏷️ 2. Hostname Configuration
@@ -100,13 +100,14 @@ Login test:
 ssh pawel@144.91.124.1
 ```
 
+---
+
 Verification:
 
 ```bash
 whoami
 ```
-![SSH Connection](../assets/environment/ssh-root-login.png)
----
+
 
 ## 🔒 8. Sudo Access Verification
 
@@ -119,7 +120,7 @@ Expected result:
 ```
 root
 ```
-
+![SSH connection successful](../assets/environment/ssh-pawel-login.png)
 ---
 
 ## 🚫 9. SSH Hardening
@@ -142,7 +143,7 @@ Restart SSH:
 ```bash
 systemctl restart ssh
 ```
-
+![SSH connection successful](../assets/environment/sshd-config.png)
 ---
 
 ## 🔥 10. Firewall Configuration (UFW)
@@ -171,7 +172,7 @@ Expected result:
 Status: active
 OpenSSH ALLOW Anywhere
 ```
-
+![SSH connection successful](../assets/environment/firewall-status.png)
 ---
 
 # 🧠 Why These Steps Matter
