@@ -13,7 +13,7 @@ Connected to the VPS via SSH as the `root` user:
 ```bash
 ssh root@144.91.124.1
 ```
-![SSH connection successful](../assets/environment/ssh-root-login.png)
+
 ---
 
 ## 🏷️ 2. Hostname Configuration
@@ -29,7 +29,7 @@ Updated `/etc/hosts`:
 ```bash
 127.0.1.1 vpscontabo
 ```
-
+![SSH connection successful](../assets/environment/ssh-root-login.png)
 ---
 
 ## 👤 3. Creating a Non-Root User
