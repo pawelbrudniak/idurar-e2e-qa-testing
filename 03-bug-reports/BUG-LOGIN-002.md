@@ -95,6 +95,18 @@ It highlights importance of **test data availability** in system usability.
 - Deployment Gap
 ---
 
+## 🔍 Investigation
+
+Database inspection shows that no users exist in the system:
+
+- No collections present in `idurar` database
+- `admins` collection: 0 documents
+- `users` collection: 0 documents
+
+This confirms that login cannot succeed due to missing user data.
+
+![DB Evidence](../assets/evidence/BUG-LOGIN-002_db-admins-empty.png)
+
 ## 🔗 Related Analysis
 
 Full investigation:
