@@ -8,15 +8,15 @@ Verify that the user can successfully log in with valid credentials.
 ---
 
 ## ⚙️ Preconditions
-- User account exists in the system
 - Application is accessible
 - User is on the login page
+- ⚠️ No users currently exist in the database (known issue)
 
 ---
 
 ## 🧾 Test Data
-- Email: valid_user@example.com
-- Password: ValidPassword123
+- Email: admin@admin.com
+- Password: admin123
 
 ---
 
@@ -33,18 +33,19 @@ User is successfully logged in and redirected to the dashboard.
 
 ---
 
-## 🧪 Actual Result
-User is successfully logged in and redirected to the dashboard.
+## ❌ Actual Result
+Login fails with error:
+"No account with this email has been registered."
 
 ---
 
 ## 📊 Status
-Passed
+Failed
 
 ---
 
 ## ⚡ Priority
-Medium
+High
 
 ---
 
@@ -53,10 +54,11 @@ Functional
 
 ---
 
-## 🔗 Related Issue
-https://github.com/pawelbrudniak/idurar-e2e-qa-testing/issues/1
+## 🔗 Related Issues
+- BUG-LOGIN-002
+- BUG-SETUP-001
 
 ---
 
 ## 📝 Notes
-This test verifies the basic authentication flow of the system.
+Failure is caused by missing user data in the database due to a broken setup script.
