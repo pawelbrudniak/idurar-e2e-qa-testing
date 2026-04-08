@@ -2,6 +2,10 @@
 
 This directory contains designed test cases for the iDURAR system.
 
+## Approach
+
+Test cases are based on real user scenarios and system behavior observed during testing and investigation.
+
 Each test case includes:
 - objective
 - preconditions
