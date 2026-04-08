@@ -1,5 +1,10 @@
 # 🐞 Bug Reports
 
+Login investigation revealed multiple issues:
+- CORS misconfiguration
+- Backend port mismatch
+- Missing default user
+
 This directory contains defects identified during testing.
 
 Each bug report includes:
