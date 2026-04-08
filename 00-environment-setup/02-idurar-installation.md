@@ -114,7 +114,7 @@ command: sh -c "npm install && npm run dev -- --host 0.0.0.0"
 ✅ Solution:
 
 ```
-http://<VPS_IP>:3000
+http://144.91.124.1:3000
 ```
 
 ---
@@ -124,13 +124,13 @@ http://<VPS_IP>:3000
 ### Frontend
 
 ```
-http://<VPS_IP>:3000
+http://144.91.124.1:3000
 ```
 
 ### Backend
 
 ```
-http://<VPS_IP>:8888
+http://144.91.124.1:8888
 ```
 
 ---
@@ -143,6 +143,9 @@ Password: admin123
 ```
 
 (*If credentials do not work, database seeding must be verified*)
+
+⚠️ Note:
+Default credentials are not available due to failed database initialization (setup script error).
 
 ---
 
@@ -195,12 +198,6 @@ Error: Cannot find module '../models/appModels/PaymentMode'
 
 ---
 
-## 📁 Evidence
-
-- Screenshots available in `/09-assets/installation/`
-- Logs captured during Docker execution
-
----
 
 ## 🎯 Summary
 
@@ -219,10 +216,12 @@ The system is now ready for:
 - defect reporting
 
 ---
+## ⚠️ Blocking Issues Identified
 
-## 🔜 Next Steps
+During environment setup, a critical issue was identified:
 
-- Create Test Plan (`01-test-plan`)
-- Design Test Cases (`02-test-cases`)
-- Execute E2E flows
-- Report defects
+- setup script failure (missing modules: PaymentMode, Taxes)
+- database not fully initialized
+- default admin user not usable
+
+👉 This blocks further functional testing and requires workaround or fix.

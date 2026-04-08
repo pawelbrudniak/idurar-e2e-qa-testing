@@ -105,9 +105,21 @@ require('../models/appModels/Taxes')
 
 ## 📸 Evidence
 
-- INVESTIGATION-LOGIN-001_no-users-in-db.png  
-- INVESTIGATION-LOGIN-002_setup-script-module-error.png  
-- INVESTIGATION-LOGIN-003_setup-script-missing-taxes-module.png  
+### 1. No users in database
+
+![No users in DB](../assets/evidence/INVESTIGATION-LOGIN-001_no-users-in-db.png)
+
+---
+
+### 2. Setup script error – missing PaymentMode
+
+![Missing PaymentMode module](../assets/evidence/INVESTIGATION-LOGIN-002_setup-script-missing-paymentmode-module.png)
+
+---
+
+### 3. Setup script error – missing Taxes
+
+![Missing Taxes module](../assets/evidence/INVESTIGATION-LOGIN-003_setup-script-missing-taxes-module.png)
 
 ---
 
