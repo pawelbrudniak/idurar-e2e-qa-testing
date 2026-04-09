@@ -93,7 +93,7 @@ Application setup failed due to invalid and outdated model references.
 
 ## 🔍 Login Flow Investigation (Case Study)
 
-👉 📄 [Login Investigation Report](./docs/LOGIN-INVESTIGATION.md)
+👉 📄 [Login Investigation Report](./docs/LOGIN-INVESTIGATION-CASE-STUDY.md)
 
 ---
 
