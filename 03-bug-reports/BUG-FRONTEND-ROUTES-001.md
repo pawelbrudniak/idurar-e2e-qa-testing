@@ -41,13 +41,12 @@ at routes.jsx:74
 ## 📸 Evidence
 
 ### ❌ Before Fix – White Screen & Error
-![Console Error](assets/evidence/bug-frontend-routes-console.png)
+![Console Error](/assets/evidence/bug-frontend-routes-console.png)
 
-### ❌ routes.jsx – Invalid References
-![routes.jsx](assets/evidence/bug-frontend-routes-code.png)
+
 
 ### ✅ After Fix – Dashboard Loaded
-![Dashboard](assets/evidence/bug-frontend-routes-fixed.png)
+![Dashboard](/assets/evidence/bug-frontend-routes-fixed.png)
 
 ---
 
@@ -88,3 +87,10 @@ Removed routes referencing missing components from `routes.jsx`.
 
 ## 📎 Notes
 This bug was discovered during end-to-end testing after resolving backend setup and CORS issues.
+
+---
+
+---
+
+## 🔗 Related Issue
+[GitHub Issue #4](https://github.com/pawelbrudniak/idurar-e2e-qa-testing/issues/4)
