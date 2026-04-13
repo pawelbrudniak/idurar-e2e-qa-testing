@@ -1,3 +1,11 @@
+---
+name: 📘 User Story
+about: Functional requirement from user perspective
+title: "STORY-"
+labels: story
+assignees: ""
+---
+
 # 👤 User Story
 
 ## 📌 Title
