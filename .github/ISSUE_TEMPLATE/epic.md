@@ -1,11 +1,10 @@
-<!--
-TITLE FORMAT:
-EPIC-<MODULE>-<ID> – Short description
-
-EXAMPLE:
-EPIC-AUTH-001 – Authentication system
--->
-
+---
+name: 🧱 Epic
+about: High-level feature or business goal
+title: "EPIC-"
+labels: epic
+assignees: ""
+---
 
 # ⭐ Epic
 
