@@ -1,3 +1,11 @@
+---
+name: 🧪 Test Case
+about: Detailed test case for validating functionality
+title: "TC-"
+labels: test-case
+assignees: ""
+---
+
 # 🎯 Test Case
 
 ## 📌 Title
