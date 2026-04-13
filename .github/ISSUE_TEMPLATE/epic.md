@@ -1,3 +1,12 @@
+<!--
+TITLE FORMAT:
+EPIC-<MODULE>-<ID> – Short description
+
+EXAMPLE:
+EPIC-AUTH-001 – Authentication system
+-->
+
+
 # ⭐ Epic
 
 ## 📌 Title
