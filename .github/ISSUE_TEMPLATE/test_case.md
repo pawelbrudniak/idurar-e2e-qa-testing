@@ -1,60 +1,97 @@
 ---
 name: 🧪 Test Case
 about: Detailed test case for validating functionality
-title: "TC-"
+title: "🧪 TC-<MODULE>-<ID> – Short description"
 labels: test-case
-assignees: ""
+assignees: "pawelbrudniak"
 ---
 
-# 🎯 Test Case
+<!--
+EXAMPLES:
+TC-AUTH-001 – Verify login with valid credentials
+TC-INVOICE-001 – Verify invoice creation with valid data
+-->
 
-## 📌 Title
-
-Short and clear description of the test case
-
----
-
-## 🧭 Related Feature / Scenario
-
-Describe what functionality is being tested
+## 📌 Test Case Objective
+Clearly describe what this test case verifies.
 
 ---
 
-## 🧪 Preconditions
-
-* User is logged in / not logged in
-* Required data exists
-* Environment setup (if needed)
+## 🔗 Related User Story
+STORY-XXX-001
 
 ---
 
-## 🔁 Test Steps
-
-1. Go to ...
-2. Click on ...
-3. Enter ...
-4. Submit ...
+## 🔗 Related Epic
+EPIC-XXX-001
 
 ---
 
-## ❗ Expected Result
-
-Describe what should happen
-
----
-
-## 📊 Test Data
-
-Provide example inputs (if applicable)
+## 🧭 Priority
+- [ ] High
+- [ ] Medium
+- [ ] Low
 
 ---
 
-## 🔄 Postconditions
+## ⚙️ Preconditions
+List all required conditions before executing the test.
 
-Describe system state after execution (if relevant)
+- [ ] Precondition 1
+- [ ] Precondition 2
+- [ ] Required test data exists
+- [ ] User has proper access rights
 
 ---
 
-## 🧠 Notes
+## 🧾 Test Data
+Provide the exact input data used during execution.
 
-Additional remarks, edge cases, or observations
+| Field | Value |
+|------|------|
+| Example field | Example value |
+
+---
+
+## 🔢 Test Steps
+1. Step 1
+2. Step 2
+3. Step 3
+
+---
+
+## ✅ Expected Result
+Describe the expected system behavior after executing the steps.
+
+---
+
+## 🧪 Test Type
+- [ ] Functional
+- [ ] Validation
+- [ ] Integration
+- [ ] API
+- [ ] Exploratory
+- [ ] Regression
+
+---
+
+## 📊 Execution Result
+- [ ] Not Run
+- [ ] Passed
+- [ ] Failed
+- [ ] Blocked
+
+---
+
+## 📎 Evidence
+Add screenshots, logs, recordings, or links if available.
+
+---
+
+## 🐞 Related Bug
+BUG-XXX-001
+
+---
+
+## 📝 Notes
+Add observations, assumptions, edge cases, or execution comments.
