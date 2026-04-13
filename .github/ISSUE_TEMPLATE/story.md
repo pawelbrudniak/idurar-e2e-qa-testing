@@ -1,63 +1,97 @@
 ---
-name: 📘 User Story
+name: 🔷 Story
 about: Functional requirement from user perspective
-title: "STORY-"
+title: "🔷 STORY-<MODULE>-<ID> – Short description"
 labels: story
-assignees: ""
+assignees: "pawelbrudniak"
 ---
 
-# 👤 User Story
+<!--
+EXAMPLES:
+STORY-AUTH-001 – User login with valid credentials
+STORY-INVOICE-001 – Create invoice with valid data
+-->
 
-## 📌 Title
-
-Short and clear description
-
----
-
-## 🧭 User Story
-
-As a [role]
-I want to [action]
-So that [business value]
+## 📌 User Story
+As a [type of user]  
+I want to [perform an action]  
+So that [achieve a goal]
 
 ---
 
-## 🎯 Acceptance Criteria
-
-Define conditions that must be met:
-
-* [ ] Condition 1
-* [ ] Condition 2
-* [ ] Condition 3
+## 🎯 Objective
+Describe the purpose of this functionality from a business perspective.
 
 ---
 
-## 🔍 Description
-
-Additional functional details
-
----
-
-## 🧪 Related Test Scenarios
-
-* TS-...
+## 👥 User / Role
+- Admin
+- User
+- Guest (if applicable)
 
 ---
 
-## 🔗 Related
-
-* Epic: #
-* Test Cases: TC-...
-* Bugs: #
-
----
-
-## ⚠️ Risks
-
-Edge cases, validation risks, or technical limitations
+## ⚙️ Preconditions
+- [ ] User has an account
+- [ ] User is on login page
+- [ ] Required data exists
 
 ---
 
-## 🧠 Notes
+## 🔢 Main Flow (Happy Path)
+1. Step 1
+2. Step 2
+3. Step 3
 
-Additional context or assumptions
+---
+
+## 🔀 Alternative Flows
+Describe variations of the main flow.
+
+- Invalid input
+- Missing data
+- Edge cases
+
+---
+
+## ❌ Negative Scenarios
+Describe incorrect or unexpected user behavior.
+
+- Empty fields
+- Invalid credentials
+- Unauthorized access
+
+---
+
+## ✅ Acceptance Criteria
+- [ ] Criterion 1
+- [ ] Criterion 2
+- [ ] Criterion 3
+
+👉 Each criterion should be testable and clear
+
+---
+
+## 🧪 Test Coverage (High-Level)
+What types of tests will be performed?
+
+- Functional testing
+- Validation testing
+- API testing (if applicable)
+- Exploratory testing
+
+---
+
+## 🔗 Related Epic
+EPIC-XXX-001
+
+---
+
+## 🔗 Related Test Cases
+- TC-XXX-001
+- TC-XXX-002
+
+---
+
+## 📎 Notes
+Any additional context or constraints.
