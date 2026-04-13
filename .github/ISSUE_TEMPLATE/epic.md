@@ -1,56 +1,81 @@
 ---
-name: 🧱 Epic
+name: 🧩 Epic
 about: High-level feature or business goal
-title: "EPIC-"
+title: "🧩 EPIC-<MODULE>-<ID> – Short description"
 labels: epic
-assignees: ""
+assignees: "pawelbrudniak"
 ---
 
-# ⭐ Epic
+<!--
+EXAMPLES:
+EPIC-AUTH-001 – Authentication and access control
+EPIC-INVOICE-001 – Invoice creation and management
+-->
 
-## 📌 Title
-
-High-level feature or module (e.g. Invoice Management)
-
----
-
-## 🎯 Objective
-
-What problem does this epic solve?
-
-* Business goal
-* User value
+## 📌 Epic Overview
+Provide a high-level description of the feature or system area covered by this epic.
 
 ---
 
-## 📦 Scope
+## 🎯 Business Objective
+What business value does this epic deliver?
 
-What is included:
+Examples:
+- Enable user authentication
+- Allow invoice creation and management
+- Ensure secure access to the system
 
-* Features
-* Modules
-* Functional areas
+---
+
+## 👥 Users / Actors
+Who will use this functionality?
+
+- Admin
+- Registered user
+- Guest (if applicable)
+
+---
+
+## 📦 Scope (In Scope)
+List functionalities included in this epic.
+
+- [ ] Functionality 1
+- [ ] Functionality 2
+- [ ] Functionality 3
 
 ---
 
 ## 🚫 Out of Scope
+Clearly define what is NOT included.
 
-What is NOT included
-
----
-
-## 👤 Related User Stories
-
-* # (link issues)
+- [ ] Not included feature 1
+- [ ] Not included feature 2
 
 ---
 
-## ⚠️ Risks
+## ⚠️ Risks & Assumptions
+Identify risks, constraints, or assumptions.
 
-Potential risks or challenges
+- Risk: External API dependency
+- Assumption: User data is already validated
+- Constraint: Limited backend support
 
 ---
 
-## 🧠 Notes
+## 🧪 Test Strategy (High-Level)
+Describe how this epic will be tested.
 
-Additional context
+- Functional testing
+- Integration testing
+- Exploratory testing
+
+---
+
+## 🔗 Related User Stories
+- STORY-XXX-001
+- STORY-XXX-002
+
+---
+
+## 📎 Notes
+Any additional information relevant to this epic.
